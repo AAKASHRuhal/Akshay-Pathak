@@ -4830,7 +4830,7 @@ only screen and (min-width: 768px)and (max-width: 991px) {
 }
 
 .elendo-video-box {
-    background: url(../images/banners/video-banner.webp);
+    background: url(../img/video-banner.png);
     min-height: 450px;
     -webkit-transition: .5s;
     -o-transition: .5s;
@@ -7727,7 +7727,7 @@ only screen and (max-width: 767px) {
     -webkit-transition: opacity .6s, margin .3s;
     -o-transition: opacity .6s, margin .3s;
     transition: opacity .6s, margin .3s;
-    white-space: pre;
+    white-space: nowrap;
     font-size: 13px;
     line-height: 14px;
     top: -30px;
@@ -7762,7 +7762,7 @@ only screen and (max-width: 767px) {
 .single-product-item .product-actions a:hover .tool-tip {
     visibility: visible;
     opacity: 1;
-    top: -35px
+    top: -25px
 }
 
 .single-product-item:hover .product-thumbnail::after {
